@@ -1,6 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { keyframes } from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import { keyframes } from "styled-components";
+import cv from "../../assets/technologies/cv.pdf";
 
 const StyledResume = styled.div`
   height: 200px;
@@ -40,7 +41,7 @@ const StyledPulse = styled.div`
     margin-top: -12px;
     width: 50px;
     height: 50px;
-    content: '';
+    content: "";
     display: block;
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
@@ -53,7 +54,7 @@ const StyledPulse = styled.div`
     margin-top: -12px;
     width: 50px;
     height: 50px;
-    content: '';
+    content: "";
     display: block;
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
@@ -64,14 +65,10 @@ const StyledPulse = styled.div`
 
 const Resume = () => (
   <StyledResume>
-    <h1>CV</h1>
-
-    <a
-      href="https://standardresume.co/divashchuk"
-      target="_blank"
-      rel="noopener noreferrer">
+    <h1> CV </h1>
+    <a href={cv} target="_blank" rel="noopener noreferrer">
       <StyledPulse />
-    </a>
+    </a>{" "}
   </StyledResume>
 );
 
