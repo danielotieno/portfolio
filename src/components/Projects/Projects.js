@@ -6,9 +6,8 @@ import { Element } from "react-scroll";
 
 import react from "../../assets/technologies/react-colored.svg";
 import firebase from "../../assets/technologies/firebase-colored.svg";
-import gatsby from "../../assets/technologies/gatsby-colored.svg";
-import graphql from "../../assets/technologies/graphql.1.svg";
 import js from "../../assets/technologies/javascript-colored.svg";
+import html from "../../assets/technologies/html.svg";
 
 const StyledProjects = styled.div`
   max-width: 700px;
@@ -32,51 +31,20 @@ const Projects = () => (
         <Icon src={js} height="50px" width="50px" />
       </Project>
       <Project
-        title="personal blog"
-        description="Gatsby blog with custom page transitions and graphCMS integration"
+        title="Weight Converter"
+        description="A simple weight converter app using JavaScript and Bootstrap. It will convert pounds to grams, kilograms and ounces."
         github="https://github.com/d-ivashchuk/ivashchuk-blog/"
-        live="https://d-ivashchuk.github.io/ivashchuk-blog/"
+        live="https://danielotieno.github.io/weight-converter/"
       >
-        <Icon src={react} height="50px" width="50px" />
-        <Icon src={gatsby} height="50px" width="50px" />
-        <Icon src={graphql} height="50px" width="50px" />
-      </Project>
-      <Project
-        title="pet-dashboard"
-        description="SPA for storing data about pets and their health conditions. Features:
-        authentication, real-time database, state-management by firease."
-        github="http://github.com/d-ivashchuk/pet-dashboard"
-        live="https://d-ivashchuk.github.io/pet-dashboard/"
-        tech="react"
-      >
-        <Icon src={react} height="50px" width="50px" />
-        <Icon src={firebase} height="50px" width="50px" />
-      </Project>
-      <Project
-        title="clash"
-        description="SPA for voting on popular brand duels on the web that offers minimalistic interface and real-time updates of current votes."
-        github="http://github.com/d-ivashchuk/clash"
-        live="https://d-ivashchuk.github.io/clash/"
-        tech="react"
-      >
-        <Icon src={react} height="50px" width="50px" />
-        <Icon src={firebase} height="50px" width="50px" />
-      </Project>
-      <Project
-        title="firebase-app"
-        description="SPA that I use to start a project with a firebase."
-        github="http://github.com/d-ivashchuk/firebaseApp"
-        live="https://d-ivashchuk.github.io/firebaseApp/"
-      >
-        <Icon src={react} height="50px" width="50px" />
-        <Icon src={firebase} height="50px" width="50px" />
+        <Icon src={html} height="50px" width="50px" />
+        <Icon src={js} height="50px" width="50px" />
       </Project>
 
       <Project
         title="This portfolio"
         description="The code for the portfolio you are currently browsing!"
-        github="https://github.com/d-ivashchuk/portfolio"
-        live="https://d-ivashchuk.github.io/portfolio"
+        github="https://github.com/danielotieno/portfolio"
+        live="#"
       >
         <Icon src={react} height="50px" width="50px" />
       </Project>
