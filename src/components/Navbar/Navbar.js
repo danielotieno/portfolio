@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import Headroom from 'react-headroom';
-import { shadow } from '../../styles/utils/shadow.js';
+import React from "react";
+import styled from "styled-components";
+import Headroom from "react-headroom";
+import { shadow } from "../../styles/utils/shadow.js";
 
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 const StyledNavbar = styled.ul`
   color: rgba(80, 89, 113, 0.7);
   list-style: none;
@@ -17,18 +17,19 @@ const StyledNavbar = styled.ul`
   ${shadow};
 
   > a {
-    font-size:18px;
+    font-size: 18px;
     margin-right: 20px;
     cursor: pointer;
-    background: linear-gradient(to bottom, transparent 62%, #FFEB3B 0) center center/0% 75% no-repeat;
+    background: linear-gradient(to bottom, transparent 62%, #ffeb3b 0) center
+      center/0% 75% no-repeat;
     cursor: pointer;
     color: rgba(80, 89, 113, 0.7);
-    transition: all .4s ease;
-  &:hover {
-    color: #007acc;
-    background-size: 100% 100%;
-    transition: all .4s ease;
-  }
+    transition: all 0.4s ease;
+    &:hover {
+      color: #000;
+      background-size: 100% 100%;
+      transition: all 0.4s ease;
+    }
   }
 `;
 

@@ -4,7 +4,8 @@ import profilePic from "../../assets/profile-picture.jpeg";
 import { SocialIcon } from "react-social-icons";
 
 const StyledInfoCard = styled.div`
-  h1 {
+  h1,
+  h2 {
     color: rgba(0, 0, 0, 0.65);
   }
   margin: 10px auto 10px auto;
@@ -63,9 +64,6 @@ const StyledInfo = styled.section`
     right: 0;
     width: 56.25%;
   }
-  h2 {
-    color: rgba(80, 89, 113, 0.7);
-  }
 `;
 const SocialWrapper = styled.div`
   display: flex;
@@ -112,14 +110,13 @@ const InfoCard = () => (
       <h2>
         Software Developer <br /> <StlyedCompany>@DannyKe Inc.</StlyedCompany>
       </h2>
-      <h2>Mombasa, Kenya</h2>
+      <h2>Mombasa, Kenya 🇰🇪</h2>
       <SocialWrapper>
         <SocialIcon url="https://twitter.com/danielotienoke" />
         <SocialIcon url="https://medium.com/@danotty" />
         <SocialIcon url="https://github.com/danielotieno" />
         <SocialIcon url="https://stackoverflow.com/users/9635966/daniel-otieno?tab=profile" />
       </SocialWrapper>
-      {/* <StyledBlogLink href="https://divdev.io/" target="_blank"><span role='img' aria-label='fire'>🔥</span> Blog <span role='img' aria-label='fire'>🔥</span></StyledBlogLink> */}
     </StyledInfo>
   </StyledInfoCard>
 );
