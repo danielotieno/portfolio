@@ -8,6 +8,7 @@ import react from "../../assets/technologies/react-colored.svg";
 import firebase from "../../assets/technologies/firebase-colored.svg";
 import gatsby from "../../assets/technologies/gatsby-colored.svg";
 import graphql from "../../assets/technologies/graphql.1.svg";
+import js from "../../assets/technologies/javascript-colored.svg";
 
 const StyledProjects = styled.div`
   max-width: 700px;
@@ -23,12 +24,12 @@ const Projects = () => (
     </h1>
     <StyledProjects>
       <Project
-        title="irreg.io"
-        description="SPA written in react that helps to learn irregularities of languages"
-        github="https://github.com/d-ivashchuk/irregio-react"
-        live="https://d-ivashchuk.github.io/irregio-react"
+        title="Memory Game"
+        description="The Memory Game Project is a complete browser-based card matching game (also known as Concentration)"
+        github="https://github.com/danielotieno/fend-project-memory-game"
+        live="https://danielotieno.github.io/fend-project-memory-game/"
       >
-        <Icon src={react} height="50px" width="50px" />
+        <Icon src={js} height="50px" width="50px" />
       </Project>
       <Project
         title="personal blog"
