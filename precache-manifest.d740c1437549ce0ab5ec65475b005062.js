@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/redux.16f98df2.svg"
   },
   {
-    "revision": "a116cca6844edc18d09b",
-    "url": "/static/js/main.a116cca6.chunk.js"
+    "revision": "c0b5fe75f555a333ba50",
+    "url": "/static/js/main.c0b5fe75.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/js/1.32ad8a8f.chunk.js"
   },
   {
-    "revision": "aeaa300c76f4eb39aefdc874da5a8046",
+    "revision": "a8b104a689115a0d7b9fad883a1d7c89",
     "url": "/index.html"
   }
 ];
