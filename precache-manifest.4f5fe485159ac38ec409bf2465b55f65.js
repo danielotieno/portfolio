@@ -105,7 +105,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "f6787c8bb35de8507a79ab64b7d61794",
-    "url": "/portfolio/static/media/cv.f6787c8b.pdf"
+    "url": "/static/media/cv.f6787c8b.pdf"
   },
   {
     "revision": "264109cc228e7ee8e528",
