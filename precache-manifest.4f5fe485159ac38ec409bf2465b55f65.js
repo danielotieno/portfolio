@@ -13,7 +13,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "f90aacb103491a1a6ed5414e3ccb5711",
-    "url": "/portfolio/static/media/javascript-colored.f90aacb1.svg"
+    "url": "/static/media/javascript-colored.f90aacb1.svg"
   },
   {
     "revision": "f9441ce0ec8b2abb03dd100284038569",
