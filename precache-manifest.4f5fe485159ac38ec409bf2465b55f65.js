@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
     "revision": "16f98df260d74109943bc8862bd19e82",
-    "url": "/portfolio/static/media/redux.16f98df2.svg"
+    "url": "/static/media/redux.16f98df2.svg"
   },
   {
     "revision": "b830c6b2c52d79d85782",
