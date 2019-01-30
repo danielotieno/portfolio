@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/redux.16f98df2.svg"
   },
   {
-    "revision": "f6fc93c21ca1cc6a1e4b",
-    "url": "/portfolio/static/js/main.f6fc93c2.chunk.js"
+    "revision": "b830c6b2c52d79d85782",
+    "url": "/portfolio/static/js/main.b830c6b2.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -108,11 +108,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/cv.f6787c8b.pdf"
   },
   {
-    "revision": "27f67ff1bf239334b07c",
-    "url": "/portfolio/static/js/1.27f67ff1.chunk.js"
+    "revision": "264109cc228e7ee8e528",
+    "url": "/portfolio/static/js/1.264109cc.chunk.js"
   },
   {
-    "revision": "0dd6895c82183cec156464a10f014727",
+    "revision": "88f619bba1200643ac834ce0bba54a27",
     "url": "/portfolio/index.html"
   }
 ];
