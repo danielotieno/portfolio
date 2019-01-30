@@ -44,9 +44,18 @@ const Projects = () => (
         title="This portfolio"
         description="The code for the portfolio you are currently browsing!"
         github="https://github.com/danielotieno/portfolio"
-        live="#"
+        live="https://danielotieno.github.io/portfolio/"
       >
         <Icon src={react} height="50px" width="50px" />
+      </Project>
+
+      <Project
+        title="Jenttman"
+        description="An online clothing wear line exclusively for men"
+        github="https://github.com/danielotieno/jenttman"
+        live="http://jenttman.herokuapp.com/"
+      >
+        <Icon src={js} height="50px" width="50px" />
       </Project>
     </StyledProjects>
   </Element>
