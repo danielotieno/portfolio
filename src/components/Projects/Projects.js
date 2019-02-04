@@ -30,14 +30,16 @@ const Projects = () => (
       >
         <Icon src={js} height="50px" width="50px" />
       </Project>
+
       <Project
         title="Todo List"
-        description="This a React Todo List app"
+        description="This a React Todo List app, where user creates a todo item checked it when complete or can even delete the item.(CRUD)"
         github="https://github.com/danielotieno/todo-list"
         live="https://danielotieno.github.io/todo-list/"
       >
         <Icon src={react} height="50px" width="50px" />
       </Project>
+
       <Project
         title="Weight Converter"
         description="A simple weight converter app using JavaScript and Bootstrap. It will convert pounds to grams, kilograms and ounces."
