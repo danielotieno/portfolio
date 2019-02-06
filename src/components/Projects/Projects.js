@@ -32,6 +32,16 @@ const Projects = () => (
       </Project>
 
       <Project
+        title="City Tour"
+        description="The City Tour is an App that list different cities of a country, User can see more info of a specific city and can also remove a specific city"
+        github="https://github.com/danielotieno/city-tours-app"
+        live="https://danielotieno.github.io/city-tours-app/"
+      >
+        <Icon src={js} height="50px" width="50px" />
+        <Icon src={react} height="50px" width="50px" />
+      </Project>
+
+      <Project
         title="Todo List"
         description="This a React Todo List app, where user creates a todo item checked it when complete or can even delete the item.(CRUD)"
         github="https://github.com/danielotieno/todo-list"
