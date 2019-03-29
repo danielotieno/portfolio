@@ -8,6 +8,7 @@ import react from "../../assets/technologies/react-colored.svg";
 import firebase from "../../assets/technologies/firebase-colored.svg";
 import js from "../../assets/technologies/javascript-colored.svg";
 import html from "../../assets/technologies/html.svg";
+import python from "../../assets/technologies/python.svg";
 
 const StyledProjects = styled.div`
   max-width: 700px;
@@ -22,6 +23,16 @@ const Projects = () => (
       Projects
     </h1>
     <StyledProjects>
+      <Project
+        title="Real Estate App"
+        description="The Real Estate app is a Django application that enables user to search for estates and be able to contact realtors for inquiry"
+        github="https://github.com/danielotieno/real-estate-app"
+        live="https://do-realestate.herokuapp.com/"
+      >
+        <Icon src={js} height="50px" width="50px" />
+        <Icon src={html} height="50px" width="50px" />
+        <Icon src={python} height="50px" width="50px" />
+      </Project>
       <Project
         title="Memory Game"
         description="The Memory Game Project is a complete browser-based card matching game (also known as Concentration)"
