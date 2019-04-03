@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import profilePic from "../../assets/profile-picture.jpeg";
+import profilePic from "../../assets/profile-picture.png";
 import { SocialIcon } from "react-social-icons";
 
 const StyledInfoCard = styled.div`
   h1,
   h2 {
-    color: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
   }
   margin: 10px auto 10px auto;
   position: relative;
   width: 100%;
   max-width: 700px;
   height: 700px;
-  background: rgba(255, 255, 255, 0.25);
+  background: #ff9700;
   border-radius: 2px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(115, 7, 16, 0.2);
@@ -27,7 +27,7 @@ const StyledBackground = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: #ff9700;
   border-radius: 2px;
   @media (min-width: 470px) {
     mix-blend-mode: overlay;
@@ -82,24 +82,6 @@ const SocialWrapper = styled.div`
   }
 `;
 
-const StyledBlogLink = styled.a`
-  margin-top: 20px;
-  font-size: 24px;
-  text-decoration: none;
-  transition: all 0.4s ease;
-  padding: 0 12px 4px 12px;
-  cursor: pointer;
-  color: rgba(80, 89, 113, 0.7);
-  &:hover {
-    color: #007acc;
-    transition: all 0.4s ease;
-  }
-`;
-const StlyedCompany = styled.span`
-  font-size: 14px;
-  font-weight: 300;
-`;
-
 const InfoCard = () => (
   <StyledInfoCard>
     <StyledBackground />
@@ -107,9 +89,7 @@ const InfoCard = () => (
     <StyledInfo>
       <h1>Daniel</h1>
       <h1>Otieno</h1>
-      <h2>
-        Software Developer <br /> <StlyedCompany>@DannyKe Inc.</StlyedCompany>
-      </h2>
+      <h2>Software Developer</h2>
       <h2>Mombasa, Kenya 🇰🇪</h2>
       <SocialWrapper>
         <SocialIcon url="https://twitter.com/danielotienoke" />

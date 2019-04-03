@@ -5,7 +5,6 @@ import Project from "./Project/Project.js";
 import { Element } from "react-scroll";
 
 import react from "../../assets/technologies/react-colored.svg";
-import firebase from "../../assets/technologies/firebase-colored.svg";
 import js from "../../assets/technologies/javascript-colored.svg";
 import html from "../../assets/technologies/html.svg";
 import python from "../../assets/technologies/python.svg";

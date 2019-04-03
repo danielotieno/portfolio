@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 
 const StyledAbout = styled.div`
   h1 {
-    color: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
   }
   font-size: 18px;
   display: flex;
@@ -13,10 +13,10 @@ const StyledAbout = styled.div`
   text-align: center;
   max-width: 660px;
   padding: 20px;
-  background: white;
+  background: #ff9700;
   margin: 0 auto 10px auto;
   p {
-    color: rgba(80, 89, 113, 0.7);
+    color: #fefefe;
     line-height: 140%;
   }
   a {
@@ -57,15 +57,14 @@ const About = () => (
       <StyledHr />
       <div>
         <p>
-          I am 🔥 Software Developer from Kenya🇰🇪 who loves to learn new
+          I am 🔥 Software Developer from Kenya who loves to learn new
           technologies and enjoy adapting to shifts in the industry. My
           developer ethos: always be learning and always be coding.
         </p>
         <br />
         <p>
           I am happy to share my knowledge with the community | I am Learning
-          Community Ambassador for ALC | Lead Organiser for Nairuby
-          Mombasa(Rubyists User Group).
+          Community Ambassador for ALC.
         </p>
       </div>
     </StyledAbout>

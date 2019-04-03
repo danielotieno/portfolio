@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import bg from './assets/bg.svg';
-import Navbar from './components/Navbar/Navbar.js';
-import About from './components/About/About.js';
-import InfoCard from './components/InfoCard/InfoCard.js';
-import Stack from './components/Stack/Stack.js';
-import Projects from './components/Projects/Projects.js';
-import Resume from './components/Resume/Resume.js';
+import React, { Component } from "react";
+import bg from "./assets/bgg.jpg";
+import Navbar from "./components/Navbar/Navbar.js";
+import About from "./components/About/About.js";
+import InfoCard from "./components/InfoCard/InfoCard.js";
+import Stack from "./components/Stack/Stack.js";
+import Projects from "./components/Projects/Projects.js";
+import Resume from "./components/Resume/Resume.js";
 
-import { injectGlobal } from 'styled-components';
-import styled from 'styled-components';
+import { injectGlobal } from "styled-components";
+import styled from "styled-components";
 
 injectGlobal`
   html{

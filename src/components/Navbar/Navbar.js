@@ -5,13 +5,13 @@ import { shadow } from "../../styles/utils/shadow.js";
 
 import { Link } from "react-scroll";
 const StyledNavbar = styled.ul`
-  color: rgba(80, 89, 113, 0.7);
+  color: #ffffff;
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #faa627;
   height: 70px;
   width: 100%;
   ${shadow};
@@ -20,13 +20,11 @@ const StyledNavbar = styled.ul`
     font-size: 18px;
     margin-right: 20px;
     cursor: pointer;
-    background: linear-gradient(to bottom, transparent 62%, #ffeb3b 0) center
-      center/0% 75% no-repeat;
     cursor: pointer;
-    color: rgba(80, 89, 113, 0.7);
+    color: #ffffff;
     transition: all 0.4s ease;
     &:hover {
-      color: #000;
+      color: #333;
       background-size: 100% 100%;
       transition: all 0.4s ease;
     }
