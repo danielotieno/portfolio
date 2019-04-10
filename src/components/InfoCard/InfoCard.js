@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import profilePic from "../../assets/profile-picture.png";
+import profilePic from "../../assets/pp.jpeg";
 import { SocialIcon } from "react-social-icons";
 
 const StyledInfoCard = styled.div`
