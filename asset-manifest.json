@@ -1,6 +1,6 @@
 {
-  "main.js": "/portfolio/static/js/main.9b1e8047.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.9b1e8047.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.6718f5b4.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.6718f5b4.chunk.js.map",
   "static/js/1.f8f4d19c.chunk.js": "/portfolio/static/js/1.f8f4d19c.chunk.js",
   "static/js/1.f8f4d19c.chunk.js.map": "/portfolio/static/js/1.f8f4d19c.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -10,7 +10,7 @@
   "static/media/react-colored.svg": "/portfolio/static/media/react-colored.57f85b0f.svg",
   "static/media/html.svg": "/portfolio/static/media/html.7b4c19c5.svg",
   "static/media/bgg.jpg": "/portfolio/static/media/bgg.b56865d8.jpg",
-  "static/media/profile-picture.png": "/portfolio/static/media/profile-picture.747ce50b.png",
+  "static/media/pp.jpeg": "/portfolio/static/media/pp.86aa36dd.jpeg",
   "static/media/css3.svg": "/portfolio/static/media/css3.549a6229.svg",
   "static/media/firebase.svg": "/portfolio/static/media/firebase.e9cdd2bc.svg",
   "static/media/git.svg": "/portfolio/static/media/git.088b353a.svg",
@@ -30,6 +30,6 @@
   "static/media/postgres.svg": "/portfolio/static/media/postgres.08f8f163.svg",
   "static/media/cv.pdf": "/portfolio/static/media/cv.4b47bb5c.pdf",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.6986bd3cedf5ab5e295ec56675d04d05.js": "/portfolio/precache-manifest.6986bd3cedf5ab5e295ec56675d04d05.js",
+  "precache-manifest.004714c9e07ef89c2fb510c31f7728fc.js": "/portfolio/precache-manifest.004714c9e07ef89c2fb510c31f7728fc.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
