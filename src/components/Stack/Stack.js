@@ -1,28 +1,27 @@
-import React from "react";
-import styled from "styled-components";
-import { Element } from "react-scroll";
-import Icon from "../Ui/Icon/Icon.js";
-import Hr from "../Ui/Hr/Hr.js";
+import React from 'react';
+import styled from 'styled-components';
+import { Element } from 'react-scroll';
+import Icon from '../Ui/Icon/Icon.js';
+import Hr from '../Ui/Hr/Hr.js';
 
-import css from "../../assets/technologies/css3.svg";
-import firebase from "../../assets/technologies/firebase.svg";
-import git from "../../assets/technologies/git.svg";
-import github from "../../assets/technologies/github.svg";
-import html from "../../assets/technologies/html5.svg";
-import javascript from "../../assets/technologies/javascript.svg";
-import node from "../../assets/technologies/node-dot-js.svg";
-import react from "../../assets/technologies/react.svg";
-import redux from "../../assets/technologies/redux.svg";
+import css from '../../assets/technologies/css3.svg';
+import git from '../../assets/technologies/git.svg';
+import github from '../../assets/technologies/github.svg';
+import html from '../../assets/technologies/html5.svg';
+import javascript from '../../assets/technologies/javascript.svg';
+import node from '../../assets/technologies/node.svg';
+import react from '../../assets/technologies/react.svg';
+import redux from '../../assets/technologies/redux.svg';
 
-import webpack from "../../assets/technologies/webpack.svg";
-import gatsby from "../../assets/technologies/gatsby.svg";
-import npm from "../../assets/technologies/npm.svg";
-import jest from "../../assets/technologies/jest.svg";
-import vscode from "../../assets/technologies/vscode.svg";
-import netlify from "../../assets/technologies/netlify.svg";
-import python from "../../assets/technologies/python.svg";
-import ruby from "../../assets/technologies/ruby.svg";
-import postgres from "../../assets/technologies/postgres.svg";
+import webpack from '../../assets/technologies/webpack.svg';
+import gatsby from '../../assets/technologies/gatsby.svg';
+import npm from '../../assets/technologies/npm.svg';
+import jest from '../../assets/technologies/jest.svg';
+import vscode from '../../assets/technologies/vscode.svg';
+import netlify from '../../assets/technologies/netlify.svg';
+import python from '../../assets/technologies/py.svg';
+import postgres from '../../assets/technologies/pg.svg';
+import graph from '../../assets/technologies/graph.svg';
 
 const StyledStack = styled.div`
   display: flex;
@@ -56,42 +55,41 @@ const StyledTechnologies = styled.div`
 `;
 
 const Stack = () => (
-  <Element name="skills">
+  <Element name='skills'>
     <StyledStack>
       <StyledStackDivision>
         <h1>Front-end skills</h1>
         <Hr />
         <StyledTechnologies>
-          <Icon src={html} height="70px" width="70px" />
-          <Icon src={javascript} height="70px" width="70px" />
-          <Icon src={css} height="70px" width="70px" />
-          <Icon src={react} height="70px" width="70px" />
-          <Icon src={redux} height="70px" width="70px" />
-          <Icon src={gatsby} height="70px" width="70px" />
+          <Icon src={html} height='70px' width='70px' />
+          <Icon src={javascript} height='70px' width='70px' />
+          <Icon src={css} height='70px' width='70px' />
+          <Icon src={react} height='70px' width='70px' />
+          <Icon src={redux} height='70px' width='70px' />
+          <Icon src={gatsby} height='70px' width='70px' />
         </StyledTechnologies>
       </StyledStackDivision>
       <StyledStackDivision>
         <h1>Back-end skills</h1>
         <Hr />
         <StyledTechnologies>
-          <Icon src={python} height="70px" width="70px" />
-          <Icon src={ruby} height="70px" width="70px" />
-          <Icon src={firebase} height="70px" width="70px" />
-          <Icon src={node} height="70px" width="70px" />
-          <Icon src={postgres} height="70px" width="70px" />
+          <Icon src={python} height='70px' width='70px' />
+          <Icon src={node} height='70px' width='70px' />
+          <Icon src={graph} height='70px' width='70px' />
+          <Icon src={postgres} height='70px' width='70px' />
         </StyledTechnologies>
       </StyledStackDivision>
       <StyledStackDivision>
         <h1>Tools</h1>
         <Hr />
         <StyledTechnologies>
-          <Icon src={git} height="70px" width="70px" />
-          <Icon src={github} height="70px" width="70px" />
-          <Icon src={webpack} height="70px" width="70px" />
-          <Icon src={npm} height="70px" width="70px" />
-          <Icon src={jest} height="70px" width="70px" />
-          <Icon src={netlify} height="70px" width="70px" />
-          <Icon src={vscode} height="70px" width="70px" />
+          <Icon src={git} height='70px' width='70px' />
+          <Icon src={github} height='70px' width='70px' />
+          <Icon src={webpack} height='70px' width='70px' />
+          <Icon src={npm} height='70px' width='70px' />
+          <Icon src={jest} height='70px' width='70px' />
+          <Icon src={netlify} height='70px' width='70px' />
+          <Icon src={vscode} height='70px' width='70px' />
         </StyledTechnologies>
       </StyledStackDivision>
     </StyledStack>

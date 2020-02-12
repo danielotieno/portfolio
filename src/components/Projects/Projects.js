@@ -1,13 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import Icon from "../Ui/Icon/Icon.js";
-import Project from "./Project/Project.js";
-import { Element } from "react-scroll";
+import React from 'react';
+import styled from 'styled-components';
+import Icon from '../Ui/Icon/Icon.js';
+import Project from './Project/Project.js';
+import { Element } from 'react-scroll';
 
-import react from "../../assets/technologies/react-colored.svg";
-import js from "../../assets/technologies/javascript-colored.svg";
-import html from "../../assets/technologies/html.svg";
-import python from "../../assets/technologies/python.svg";
+import react from '../../assets/technologies/re.svg';
+import js from '../../assets/technologies/js.svg';
+import html from '../../assets/technologies/html-5.svg';
+import python from '../../assets/technologies/py.svg';
+import node from '../../assets/technologies/node.svg';
+import gatsby from '../../assets/technologies/gatsby-colored.svg';
+import graph from '../../assets/technologies/graph.svg';
 
 const StyledProjects = styled.div`
   max-width: 700px;
@@ -17,75 +20,48 @@ const StyledProjects = styled.div`
 `;
 
 const Projects = () => (
-  <Element name="projects">
-    <h1 style={{ color: "white", textAlign: "center", marginBottom: "20px" }}>
+  <Element name='projects'>
+    <h1 style={{ color: 'white', textAlign: 'center', marginBottom: '20px' }}>
       Projects
     </h1>
     <StyledProjects>
       <Project
-        title="Real Estate App"
-        description="The Real Estate app is a Django application that enables user to search for estates and be able to contact realtors for inquiry"
-        github="https://github.com/danielotieno/real-estate-app"
-        live="https://do-realestate.herokuapp.com/"
-      >
-        <Icon src={js} height="50px" width="50px" />
-        <Icon src={html} height="50px" width="50px" />
-        <Icon src={python} height="50px" width="50px" />
-      </Project>
-      <Project
-        title="Memory Game"
-        description="The Memory Game Project is a complete browser-based card matching game (also known as Concentration)"
-        github="https://github.com/danielotieno/fend-project-memory-game"
-        live="https://danielotieno.github.io/fend-project-memory-game/"
-      >
-        <Icon src={js} height="50px" width="50px" />
+        title='Real Estate App'
+        description='The Real Estate app is a Django application that enables user to search for estates and be able to contact realtors for inquiry'
+        github='https://github.com/danielotieno/real-estate-app'
+        live='https://do-realestate.herokuapp.com/'>
+        <Icon src={js} height='50px' width='50px' />
+        <Icon src={html} height='50px' width='50px' />
+        <Icon src={python} height='50px' width='50px' />
       </Project>
 
       <Project
-        title="City Tour"
-        description="The City Tour is an App that list different cities of a country, User can see more info of a specific city and can also remove a specific city"
-        github="https://github.com/danielotieno/city-tours-app"
-        live="https://danielotieno.github.io/city-tours-app/"
-      >
-        <Icon src={js} height="50px" width="50px" />
-        <Icon src={react} height="50px" width="50px" />
+        title='Contact Manager'
+        description='A simple MERN app that enables user to store his/her contacts and be able to perform the CRUD functionality.'
+        github='https://github.com/danielotieno/contact-manager-api'
+        live='#'>
+        <Icon src={html} height='50px' width='50px' />
+        <Icon src={js} height='50px' width='50px' />
+        <Icon src={node} height='50px' width='50px' />
       </Project>
 
       <Project
-        title="Todo List"
-        description="This a React Todo List app, where user creates a todo item checked it when complete or can even delete the item.(CRUD)"
-        github="https://github.com/danielotieno/todo-list"
-        live="https://danielotieno.github.io/todo-list/"
-      >
-        <Icon src={react} height="50px" width="50px" />
+        title='GitHub Finder'
+        description='GitHub Finder is a React app that help user to search GitHub Profiles. It uses GitHub REST API.'
+        github='https://github.com/danielotieno/github-finder-app'
+        live='https://github-finder-site.netlify.com'>
+        <Icon src={js} height='50px' width='50px' />
+        <Icon src={react} height='50px' width='50px' />
       </Project>
 
       <Project
-        title="Weight Converter"
-        description="A simple weight converter app using JavaScript and Bootstrap. It will convert pounds to grams, kilograms and ounces."
-        github="https://github.com/d-ivashchuk/ivashchuk-blog/"
-        live="https://danielotieno.github.io/weight-converter/"
-      >
-        <Icon src={html} height="50px" width="50px" />
-        <Icon src={js} height="50px" width="50px" />
-      </Project>
-
-      <Project
-        title="This portfolio"
-        description="The code for the portfolio you are currently browsing!"
-        github="https://github.com/danielotieno/portfolio"
-        live="https://danielotieno.github.io/portfolio/"
-      >
-        <Icon src={react} height="50px" width="50px" />
-      </Project>
-
-      <Project
-        title="Jenttman"
-        description="An online clothing wear line exclusively for men"
-        github="https://github.com/danielotieno/jenttman"
-        live="http://jenttman.herokuapp.com/"
-      >
-        <Icon src={js} height="50px" width="50px" />
+        title='KeSpice'
+        description='KeSpice is an amazing product design to help people save time at restaurants.'
+        github='https://github.com/danielotieno/kespice-website'
+        live='https://www.kespice.com/'>
+        <Icon src={js} height='50px' width='50px' />
+        <Icon src={gatsby} height='50px' width='50px' />
+        <Icon src={graph} height='50px' width='50px' />
       </Project>
     </StyledProjects>
   </Element>

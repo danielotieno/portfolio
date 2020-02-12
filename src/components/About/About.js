@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Element } from "react-scroll";
+import React from 'react';
+import styled from 'styled-components';
+import { Element } from 'react-scroll';
 
 const StyledAbout = styled.div`
   h1 {
@@ -51,7 +51,7 @@ const StyledHr = styled.hr`
 `;
 
 const About = () => (
-  <Element name="about">
+  <Element name='about'>
     <StyledAbout>
       <h1>About</h1>
       <StyledHr />
@@ -63,8 +63,8 @@ const About = () => (
         </p>
         <br />
         <p>
-          I am happy to share my knowledge with the community | I am Learning
-          Community Ambassador for ALC.
+          I am happy to share my knowledge with the community | I am Program
+          Assistant for The Google Africa Developer Scholarship.
         </p>
       </div>
     </StyledAbout>
