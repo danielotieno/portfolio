@@ -39,7 +39,7 @@ const Projects = () => (
         title='Contact Manager'
         description='A simple MERN app that enables user to store his/her contacts and be able to perform the CRUD functionality.'
         github='https://github.com/danielotieno/contact-manager-api'
-        live='#'>
+        live='https://store-contacts-app.herokuapp.com/'>
         <Icon src={html} height='50px' width='50px' />
         <Icon src={js} height='50px' width='50px' />
         <Icon src={node} height='50px' width='50px' />
